@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation bar  -->
+    <nav class="flex" id ="navigationBar">
+        <div class =" flex align-center justify-center" id ="navLeft">
+            <div class= "navLeft flex"> 
+                <img src="images/logo.jpeg" id="logo" alt="logo.png">
+            </div>
+
+            <div class = "navLeft flex">
+                <a href="#head" class="navInfo"><h1>FTS</h1></a>
+            </div>
+        </div>
+
+        <div class = "flex" id="navRight">
+            <a href="#jump" class="navInfo">Portfolio</a>
+            <a href="#about" class="navInfo">About</a>
+            <a href="#contact" class="navInfo">Contact</a>
+        </div>
+        
+       
+    </nav>
+
+    <!-- Header-->
+
+    <header id ="head">
+        
+        <div class="flex align-center justify-center headerImage">
+            <img src="images/logo.jpeg" alt="FTS Group Icon"  id = "headerLogo" srcset="">
+        </div>
+        <div class="flex align-center justify-center headerText">
+            <h1 > FTS Failure To Success</h1>
+        </div>
+        <hr class="star-light">
+
+        <div class="flex align-center justify-center headerText" id="jump">
+            <h3> Your Failure > Your Success</h3>
+        </div>
+    </header>
+
+    <!--Portfolio-->
+
+    <div id="portfolio" class="">
+        <div class="flex justify-center align-center" style="padding-top: 4rem;">
+            <h1 class = "portfolioHeading">PORTFOLIO</h1>
+        </div>
+        <div >
+            <hr class="star-light" style="color: #FFFFFF">
+        </div>
+        <div class="flex justify-center align-center port">
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck">
+                <label for="zoomCheck">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck1">
+                <label for="zoomCheck1">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck2">
+                <label for="zoomCheck2">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck3">
+                <label for="zoomCheck3">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck4">
+                <label for="zoomCheck4">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+            <div class="portfolioImage">
+                <input type="checkbox" id="zoomCheck5">
+                <label for="zoomCheck5">
+                    <img src="images/clips1.png">
+                </label>
+            </div>
+        </div>
+
+    </div>
+
+    <!--     About-->    
+    <div class="  flex justify-center" id = "about">
+        <div class="aboutHeading">
+            <h1>ABOUT</h1>
+            <hr class="star-light">
+        </div>
+        
+        <div class = "aboutText">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia assumenda cupiditate amet incidunt, corrupti nulla facilis eveniet, laudantium, odit iusto id! Harum dignissimos nam ea architecto, hic aliquid suscipit ut voluptate officiis nobis, aspernatur, ratione quibusdam pariatur! Dolorem, ut facere? Maiores, fugit cumque. Iure deleniti debitis dolorem error maxime saepe?</p>
+        </div>
+    
+    </div>
+
+
+    <!-- Contact-->
+    <div class="" id="contact">
+        <div class="contactHeading flex justify-center align-center">
+            <h2>CONTACT US</h2>
+        </div>
+
+        <div class="row ">
+
+            <form id="my-form" action="https://formspree.io/f/xknkgako" method="POST">
+                <div class="floating-label-form-group">
+                    <label for ="name">Name</label>
+                    <input type="text" name ="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                </div>
+        
+                <div class="floating-label-form-group">
+                    <label for = "email" >Email Address</label>
+                    <input type="email" class="form-control" name="email" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                    
+                </div>
+        
+                <div class=" floating-label-form-group">
+                    <label for = "phone">Phone Number</label>
+                    <input type="tel" class="form-control" name ="phone" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                </div>
+        
+                <div class="floating-label-form-group">
+                    <label for="message">Message</label>
+                    <textarea rows="5" class="form-control" name="message" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                </div>
+
+                <button type="submit" class="btn"  id="test-form-submit">submit</button>
+                
+            
+            </form>
+        </div>
+
+        <div id="status" style="padding: 2rem; font-size: large;"></div>
+    </div>
+
+    <!--Footer-->
+    <footer style="text-align: center;">
+        <div class ="footerFirst flex justify-center " >
+            <div class="footerLocation flex1 ">
+                <div>
+                    <h2>LOCATION</h2>
+                </div>
+                <div style="text-align: justify;">
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, voluptatibus molestias ullam vel, neque esse debitis dolor temporibus nam tenetur ipsa at, corporis laud.</h3>
+                </div>
+            </div>
+
+            <div class="footerlinks flex1" >
+                <h2>Around the Web</h2>
+                <div class="flex justify-center align-center social" >
+                    <div>
+                        <a href="https://www.instagram.com/ftsofficial_90/"><img src="icons/instagram.svg" class="icons"></a>
+                    </div>
+                    <div>
+                        <a href="mailto:ftsofficial90@gmail.com"><img src="icons/mail.svg" class="icons"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/company/fts-failure-to-success"><img src="icons/linkedin.svg" class="icons"></a>
+                    </div>
+                    
+                </div>
+        
+            </div>
+            
+            <div class="footerAbout flex1" style="text-align:justify;" >
+                <h2 style="text-align:center">About FTS</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vel dolor accusantium quisquam repellendus nihil corrupti? Rerum aliquam cum dolore eveniet, optio placeat dolores doloremque</h3>
+       
+            </div>
+        </div>
+    </footer>
+    
+    <!--Copyright-->
+    <div class="flex copyright justify-center align-center">
+        Copyright &copy; FTS 2020
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
